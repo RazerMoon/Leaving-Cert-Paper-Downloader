@@ -4,10 +4,12 @@ from PyPDF2 import PdfFileMerger, PdfFileReader
 from pathlib import Path
 import requests
 
+### MODIFY THESE VALUES ###
 lang = "EV"
 subjects = {"Physics": 21, "Chemistry": 22}
 max_year = 2010
-min_year = 2007 # 2007 is lowest
+min_year = 2007 # 2007 is the lowest possible
+### MODIFY THESE VALUES ###
 
 def createDirectories():
   for subject in subjects.keys():

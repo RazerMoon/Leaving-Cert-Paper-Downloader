@@ -18,6 +18,8 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
+Go into main.py and adjust values to your liking
+
 Run
 
 ```bash
@@ -31,6 +33,7 @@ Go to `./Papers/{subject}/collection.pdf` and Ctrl+F
 It is against the [Terms and Conditions](https://www.examinations.ie/TermsConditions.html) of the SEC.
 
 > "They may not otherwise copy, modify, or distribute the examination material, or publish, broadcast, transmit, or otherwise distribute any portion of this material without the express written authorisation of the State Examinations Commission."
+
 ## Notice
 
 Do not use this script to spam the website with requests. Please be aware of the fact that deciding to download all of the papers on the website is bad. At maximum, download all the papers from a subject.
